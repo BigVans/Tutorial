@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PageBolt</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+  
+  </head>
+ <style>
+ 
+
+ /* Mobile styles */
+ @media only screen and (max-width: 767px) {
+  body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 20px; /* Adjust the padding as needed */
+  }
+
+  .logo img {
+    width: 103px;
+    height: 28px;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  .none {
+    display: none;
+  }
+  .uiv, .button {
+    display: none;
+  }
+  .hg{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-top: 20px;
+   text-align: center;
+   background-color: rgb(215, 236, 244);
+   margin-left: 30px;
+   margin-right: 30px;
+   border-radius: 10px;
+  
+  }
+  .hg .bait, .hg .boit {
+    display: inline;
+   margin: 0; 
+  }
+  .bait{
+    background-color: #41beff;
+    border-radius: 5px;
+  }
+  .boit{
+   padding-left:4px ;
+  }
+  .write, h2 {
+   text-align: center; /* Center text horizontally */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: 45%;
+  }
+  .rt {
+   text-align: center; /* Center text horizontally */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+ }
+
+ /* Desktop styles */
+ @media only screen and (min-width:  1024px) {
+  body {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 0 20px; /* Adjust the padding as needed */
+  }
+  .box {
+    max-width: 600px;
+   margin: auto;
+   padding: 20px; /* Adjust the padding as needed */
+   text-align: center;
+  }
+
+ 
+  .logo img {
+    width: 118px;
+    height: 32px;
+  }
+ 
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav,.none, li, a {
+    display: flex;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    color: black;
+  }
+ 
+  .uiv, .button {
+    display: flex;
+  }
+  .uiv :hover{
+    color: #41beff;
+  }
+  .button,button{
+    font-family: "Poppins",Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: None;
+    line-height: 1em;
+    letter-spacing: 0em;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(255, 255, 255);
+    height: 44;  
+  }
+  .button :hover{
+    color: white;
+    background-color: #41beff;
+  }
+  .h2{
+    display: none;
+  }
+  .hg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgb(215, 236, 244);
+ margin-left: 40%;
+ margin-right: 40%;
+  border-radius: 10px;
+  }
+  .bait{
+    background-color: #41beff;
+    border-radius: 5px;
+  }
+  .write, h2 {
+   text-align: center; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size:  350%;
+   padding: 10px;
+  
+  }
+ .yt{
+    color: #41beff;
+  }
+  .p {
+    text-align: center; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  }
+  .p ,p {
+   text-align: center; 
+   font-size: 150%;
+   color: rgb(150, 151, 151);
+    
+   }
+  .rt {
+   text-align: center; /* Center text horizontally */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .rt, .tth, .er{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+   transition-duration: .3s;
+    transition-property: transform; 
+  }
+
+ }
+
+  </style>
+  <body>
+    <nav class="ykb">
+      <div class="logo">
+        <img src="./pub/pagebolt-logo (1).webp" alt="Logo" />
+      </div>
+      <ul class="none">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Solutions</a></li>
+        <li><a href="#">Security</a></li>
+        <li><a href="#">Features</a></li>
+      </ul>
+      <div class="uiv">
+        <div>
+          <a href="#">Login</a>
+        </div>
+        <div class="button">
+          <button><a href="#">Get The App</a></button>
+        </div>
+      </div>
+      <h2 class="h2">=</h2>
+    </nav>
+    <div class="hg">
+      <span class="bait">New
+      </span>
+      <span class="boit"> Available platform on mobile apps</span>
+
+    </div>
+
+    <section class="big">
+      <div class="write">
+        <h1>Connect with the world,<br> one <span class="yt">Call at a Time.</span></h1>
+      </div>
+      <div class="p">
+        <p>
+          Say goodbye to expensive international call rates and <br> poor connection
+          with PageBolt cutting-edge technology
+        </p>
+      </div>
+      <div class="rt"> 
+        <a class="tth" href="#"
+        ><img
+          src="./pub/Mobile-App-Google-Play.webp"
+          alt="Mobile-App-Google-Play" />
+        </a>
+       <a class="er" href="#" ><img
+          src="./pub/Mobile-App-App-Store.webp"
+          alt="Mobile-App-App-Store" />
+        </a>
+      </div></div>
+     
+    </section>
+    <section class="bigp">
+      <img
+        src="./assets/Mobile-App-Hero-Image-768x633.webp"
+        alt="Mobile-App-Hero-Image-768x633"
+      />
+    </section>
+
+
+    
+  </body>
+</html>
